@@ -18,7 +18,7 @@ export const Scene5Impacto: React.FC<{ from: number }> = ({ from }) => {
   const pcaja = prog(T, tPagar, 0.6);
   const pplan = pop(T, tPedimos);
 
-  const v = lerp(-4822, 26300, prog(T, tGanar - 0.6, 1.8));
+  const v = lerp(-4822, 27800, prog(T, tGanar - 0.6, 1.8));
   const color = v < 0 ? C.rojo : C.verde;
   const big = pop(T, t0 - 0.3);
   // desplazamiento de la tarjeta grande a la izquierda cuando llega el aviso

@@ -86,7 +86,7 @@ export const Scene4Decisiones: React.FC<{ from: number }> = ({ from }) => {
   const tSubir = at(3, "subir el menú");
   const a2 = at(3, "Unos 10.600");
   const t3 = at(3, "Tres:");
-  const a3 = at(3, "Unos 4.150");
+  const a3 = at(3, "Unos 5.800");
 
   const active = T < t2 - 0.3 ? 1 : T < t3 - 0.3 ? 2 : 3;
 
@@ -127,7 +127,7 @@ export const Scene4Decisiones: React.FC<{ from: number }> = ({ from }) => {
         active={active === 3}
         title="Cortar gastos y no-shows"
         note="Reservas, tarjeta, equipos y recordatorios"
-        amount={4150}
+        amount={5800}
         pAmount={prog(T, a3 - 0.2, 0.7)}
       >
         <ScissorsPhone T={T} p={prog(T, t3 + 0.6, 3)} height={210} />
