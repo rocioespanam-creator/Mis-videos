@@ -1,0 +1,24 @@
+{
+  "name": "la-plazuela-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Business case La Plazuela - vídeo ejecutivo con Remotion",
+  "scripts": {
+    "stills": "node scripts/stills.mjs",
+    "render": "remotion render src/index.ts LaPlazuela out/video.mp4"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/fraunces": "^5.3.0",
+    "@remotion/bundler": "^4.0.536",
+    "@remotion/cli": "^4.0.536",
+    "@remotion/fonts": "^4.0.536",
+    "@remotion/media-utils": "^4.0.536",
+    "@remotion/renderer": "^4.0.536",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.536",
+    "typescript": "^7.0.2"
+  }
+}

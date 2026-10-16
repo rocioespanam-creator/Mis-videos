@@ -1,0 +1,451 @@
+{
+ "duration": 153.81,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "¡Hola,",
+   "start": 0.0,
+   "end": 0.313
+  },
+  {
+   "scene": 0,
+   "text": "Elena!",
+   "start": 0.313,
+   "end": 0.683
+  },
+  {
+   "scene": 0,
+   "text": "Soy Plazi.",
+   "start": 0.942,
+   "end": 1.516
+  },
+  {
+   "scene": 0,
+   "text": "Estamos a dos pasos de la Puerta del Sol,",
+   "start": 1.967,
+   "end": 4.025
+  },
+  {
+   "scene": 0,
+   "text": "en La Plazuela,",
+   "start": 4.227,
+   "end": 4.877
+  },
+  {
+   "scene": 0,
+   "text": "donde entra más gente que nunca:",
+   "start": 5.077,
+   "end": 6.879
+  },
+  {
+   "scene": 0,
+   "text": "en 2024 vendisteis 1,16 millones de euros,",
+   "start": 7.327,
+   "end": 11.123
+  },
+  {
+   "scene": 0,
+   "text": "un 14% más que en 2022.",
+   "start": 11.512,
+   "end": 13.793
+  },
+  {
+   "scene": 0,
+   "text": "Y aun así,",
+   "start": 14.274,
+   "end": 14.834
+  },
+  {
+   "scene": 0,
+   "text": "el año cerró en pérdidas.",
+   "start": 15.085,
+   "end": 16.336
+  },
+  {
+   "scene": 0,
+   "text": "Vengo a contarte por qué y qué podemos hacer en 2025.",
+   "start": 16.679,
+   "end": 20.072
+  },
+  {
+   "scene": 1,
+   "text": "Lo primero:",
+   "start": 20.927,
+   "end": 21.434
+  },
+  {
+   "scene": 1,
+   "text": "el problema no son los clientes ni la calidad,",
+   "start": 21.897,
+   "end": 24.29
+  },
+  {
+   "scene": 1,
+   "text": "que siguen como en 2022.",
+   "start": 24.545,
+   "end": 26.046
+  },
+  {
+   "scene": 1,
+   "text": "El problema son dos decisiones.",
+   "start": 26.295,
+   "end": 28.592
+  },
+  {
+   "scene": 1,
+   "text": "En 2023 se bajó la carta:",
+   "start": 29.155,
+   "end": 31.03
+  },
+  {
+   "scene": 1,
+   "text": "el menú del día pasó de 15,40 a 12,80 euros,",
+   "start": 31.462,
+   "end": 35.417
+  },
+  {
+   "scene": 1,
+   "text": "y cada menú empezó a dejar 2,58 euros menos.",
+   "start": 35.417,
+   "end": 39.093
+  },
+  {
+   "scene": 1,
+   "text": "Y en 2024 abristeis las tardes:",
+   "start": 39.631,
+   "end": 41.833
+  },
+  {
+   "scene": 1,
+   "text": "venden unos 68.600 euros al año,",
+   "start": 42.172,
+   "end": 45.049
+  },
+  {
+   "scene": 1,
+   "text": "pero el equipo nuevo cuesta 75.400,",
+   "start": 45.241,
+   "end": 48.381
+  },
+  {
+   "scene": 1,
+   "text": "y la mitad de esas horas no tienen clientes.",
+   "start": 48.563,
+   "end": 51.137
+  },
+  {
+   "scene": 1,
+   "text": "Resultado:",
+   "start": 51.642,
+   "end": 52.237
+  },
+  {
+   "scene": 1,
+   "text": "el beneficio pasa de 102.000 euros a perder 4.800,",
+   "start": 52.593,
+   "end": 56.355
+  },
+  {
+   "scene": 1,
+   "text": "y la caja se queda a la mitad.",
+   "start": 56.355,
+   "end": 58.435
+  },
+  {
+   "scene": 2,
+   "text": "¿Y el mercado?",
+   "start": 59.142,
+   "end": 59.72
+  },
+  {
+   "scene": 2,
+   "text": "En 2022 vuestro menú era un euro y medio más caro que la media de Madrid,",
+   "start": 60.258,
+   "end": 64.43
+  },
+  {
+   "scene": 2,
+   "text": "así que bajarlo tenía sentido.",
+   "start": 64.739,
+   "end": 66.258
+  },
+  {
+   "scene": 2,
+   "text": "Pero os pasasteis:",
+   "start": 66.843,
+   "end": 67.795
+  },
+  {
+   "scene": 2,
+   "text": "hoy cobráis 13 euros,",
+   "start": 68.15,
+   "end": 69.609
+  },
+  {
+   "scene": 2,
+   "text": "el menú más barato de la zona.",
+   "start": 69.806,
+   "end": 71.359
+  },
+  {
+   "scene": 2,
+   "text": "Vuestros vecinos de Sol cobran entre 13,90 y 14,50,",
+   "start": 71.711,
+   "end": 76.764
+  },
+  {
+   "scene": 2,
+   "text": "y la media de Madrid es 14,80.",
+   "start": 76.764,
+   "end": 78.795
+  },
+  {
+   "scene": 2,
+   "text": "Mientras tanto,",
+   "start": 79.406,
+   "end": 80.346
+  },
+  {
+   "scene": 2,
+   "text": "el sector subía precios y crecía.",
+   "start": 80.346,
+   "end": 82.195
+  },
+  {
+   "scene": 2,
+   "text": "¿La buena noticia?",
+   "start": 82.834,
+   "end": 83.585
+  },
+  {
+   "scene": 2,
+   "text": "El problema es de casa,",
+   "start": 84.063,
+   "end": 85.352
+  },
+  {
+   "scene": 2,
+   "text": "y eso se puede arreglar.",
+   "start": 85.569,
+   "end": 86.709
+  },
+  {
+   "scene": 3,
+   "text": "Te propongo tres decisiones,",
+   "start": 87.04,
+   "end": 88.7
+  },
+  {
+   "scene": 3,
+   "text": "y ninguna necesita inversión.",
+   "start": 88.7,
+   "end": 90.425
+  },
+  {
+   "scene": 3,
+   "text": "Una:",
+   "start": 91.147,
+   "end": 91.403
+  },
+  {
+   "scene": 3,
+   "text": "ordenar las tardes.",
+   "start": 91.837,
+   "end": 92.825
+  },
+  {
+   "scene": 3,
+   "text": "No las cerramos:",
+   "start": 93.266,
+   "end": 94.117
+  },
+  {
+   "scene": 3,
+   "text": "pagamos solo las horas con clientes y llevamos ese equipo a donde hoy pagáis horas extra.",
+   "start": 94.365,
+   "end": 99.223
+  },
+  {
+   "scene": 3,
+   "text": "Unos 21.600 euros al año.",
+   "start": 99.709,
+   "end": 101.811
+  },
+  {
+   "scene": 3,
+   "text": "Dos:",
+   "start": 102.606,
+   "end": 103.005
+  },
+  {
+   "scene": 3,
+   "text": "subir el menú del día a 14 euros.",
+   "start": 103.463,
+   "end": 105.577
+  },
+  {
+   "scene": 3,
+   "text": "Seguiríais por debajo de la media,",
+   "start": 105.926,
+   "end": 107.622
+  },
+  {
+   "scene": 3,
+   "text": "y aunque perdierais un 12% de los menús,",
+   "start": 107.622,
+   "end": 110.122
+  },
+  {
+   "scene": 3,
+   "text": "ganaríais lo mismo.",
+   "start": 110.122,
+   "end": 111.128
+  },
+  {
+   "scene": 3,
+   "text": "Unos 10.600 euros.",
+   "start": 111.558,
+   "end": 113.191
+  },
+  {
+   "scene": 3,
+   "text": "Tres:",
+   "start": 113.954,
+   "end": 114.317
+  },
+  {
+   "scene": 3,
+   "text": "cortar lo que no aporta:",
+   "start": 114.685,
+   "end": 115.855
+  },
+  {
+   "scene": 3,
+   "text": "un servicio de reservas que no se usa,",
+   "start": 116.262,
+   "end": 118.274
+  },
+  {
+   "scene": 3,
+   "text": "una comisión de tarjeta más cara de lo necesario,",
+   "start": 118.274,
+   "end": 120.924
+  },
+  {
+   "scene": 3,
+   "text": "equipos encendidos sin uso,",
+   "start": 120.924,
+   "end": 122.489
+  },
+  {
+   "scene": 3,
+   "text": "y recordatorios para que no queden mesas vacías.",
+   "start": 122.489,
+   "end": 125.139
+  },
+  {
+   "scene": 3,
+   "text": "Unos 5.800 euros.",
+   "start": 125.554,
+   "end": 127.284
+  },
+  {
+   "scene": 4,
+   "text": "Con las tres,",
+   "start": 127.94,
+   "end": 128.756
+  },
+  {
+   "scene": 4,
+   "text": "La Plazuela pasa de perder 4.800 euros a ganar unos 27.800 en 2025.",
+   "start": 128.756,
+   "end": 134.824
+  },
+  {
+   "scene": 4,
+   "text": "Eso sí,",
+   "start": 135.213,
+   "end": 135.823
+  },
+  {
+   "scene": 4,
+   "text": "un aviso:",
+   "start": 136.099,
+   "end": 136.571
+  },
+  {
+   "scene": 4,
+   "text": "la caja va justa.",
+   "start": 136.897,
+   "end": 138.079
+  },
+  {
+   "scene": 4,
+   "text": "Hay que aplazar a marzo la inversión de 20.000 euros y decidir ese día cómo pagarla.",
+   "start": 138.345,
+   "end": 142.99
+  },
+  {
+   "scene": 5,
+   "text": "Cada acción tiene su indicador para seguir o parar a tiempo.",
+   "start": 143.472,
+   "end": 146.465
+  },
+  {
+   "scene": 5,
+   "text": "Elena,",
+   "start": 147.088,
+   "end": 147.441
+  },
+  {
+   "scene": 5,
+   "text": "La Plazuela funciona:",
+   "start": 147.783,
+   "end": 148.934
+  },
+  {
+   "scene": 5,
+   "text": "solo hay que cobrar lo que vale y organizar mejor las horas.",
+   "start": 149.374,
+   "end": 152.199
+  },
+  {
+   "scene": 5,
+   "text": "¿Empezamos en enero?",
+   "start": 152.452,
+   "end": 153.41
+  }
+ ],
+ "scenes": [
+  {
+   "index": 0,
+   "speechStart": 0.0,
+   "speechEnd": 20.072
+  },
+  {
+   "index": 1,
+   "speechStart": 20.927,
+   "speechEnd": 58.435
+  },
+  {
+   "index": 2,
+   "speechStart": 59.142,
+   "speechEnd": 86.709
+  },
+  {
+   "index": 3,
+   "speechStart": 87.04,
+   "speechEnd": 127.284
+  },
+  {
+   "index": 4,
+   "speechStart": 127.94,
+   "speechEnd": 142.99
+  },
+  {
+   "index": 5,
+   "speechStart": 143.472,
+   "speechEnd": 153.41
+  }
+ ]
+}
