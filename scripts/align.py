@@ -18,8 +18,8 @@ SCENES = [
     "¡Hola, Elena! Soy Plazi. Estamos a dos pasos de la Puerta del Sol, en La Plazuela, donde entra más gente que nunca: en 2024 vendisteis 1,16 millones de euros, un 14% más que en 2022. Y aun así, el año cerró en pérdidas. Vengo a contarte por qué y qué podemos hacer en 2025.",
     "Lo primero: el problema no son los clientes ni la calidad, que siguen como en 2022. El problema son dos decisiones. En 2023 se bajó la carta: el menú del día pasó de 15,40 a 12,80 euros, y cada menú empezó a dejar 2,58 euros menos. Y en 2024 abristeis las tardes: venden unos 68.600 euros al año, pero el equipo nuevo cuesta 75.400, y la mitad de esas horas no tienen clientes. Resultado: el beneficio pasa de 102.000 euros a perder 4.800, y la caja se queda a la mitad.",
     "¿Y el mercado? En 2022 vuestro menú era un euro y medio más caro que la media de Madrid, así que bajarlo tenía sentido. Pero os pasasteis: hoy cobráis 13 euros, el menú más barato de la zona. Vuestros vecinos de Sol cobran entre 13,90 y 14,50, y la media de Madrid es 14,80. Mientras tanto, el sector subía precios y crecía. ¿La buena noticia? El problema es de casa, y eso se puede arreglar.",
-    "Te propongo tres decisiones, y ninguna necesita inversión. Una: ordenar las tardes. No las cerramos: pagamos solo las horas con clientes y llevamos ese equipo a donde hoy pagáis horas extra. Unos 21.600 euros al año. Dos: subir el menú del día a 14 euros. Seguiríais por debajo de la media, y aunque perdierais un 12% de los menús, ganaríais lo mismo. Unos 10.600 euros. Tres: cortar lo que no aporta: un servicio de reservas que no se usa, una comisión de tarjeta más cara de lo necesario, equipos encendidos sin uso, y recordatorios para que no queden mesas vacías. Unos 5.800 euros.",
-    "Con las tres, La Plazuela pasa de perder 4.800 euros a ganar unos 27.800 en 2025. Eso sí, un aviso: la caja va justa. Hay que aplazar a marzo la inversión de 20.000 euros y decidir ese día cómo pagarla.",
+    "Te propongo tres decisiones, y ninguna necesita inversión. Una: ordenar las tardes. No las cerramos: pagamos solo las horas con clientes y llevamos ese equipo a donde hoy pagáis horas extra. Unos 21.600 euros al año. Dos: subir el menú del día a 14 euros. Seguiríais por debajo de la media, y aunque perdierais un 12% de los menús, ganaríais lo mismo. Unos 10.600 euros. Tres: cortar lo que no aporta: un servicio de reservas que no se usa, una comisión de tarjeta más cara de lo necesario, equipos encendidos sin uso, y recordatorios para que no queden mesas vacías. Unos 4.150 euros.",
+    "Con las tres, La Plazuela pasa de perder 4.800 euros a ganar unos 26.300 en 2025. Eso sí, un aviso: la caja va justa. Hay que aplazar a marzo la inversión de 20.000 euros y decidir ese día cómo pagarla. Al pagar en marzo la caja queda en unos 20.400 euros: ese día pedimos pago a plazos o una línea de crédito.",
     "Cada acción tiene su indicador para seguir o parar a tiempo. Elena, La Plazuela funciona: solo hay que cobrar lo que vale y organizar mejor las horas. ¿Empezamos en enero?",
 ]
 
@@ -33,7 +33,8 @@ SPOKEN = {
     "4.800": "cuatro mil ochocientos", "13,90": "trece con noventa", "14,50": "catorce con cincuenta",
     "14,80": "catorce con ochenta", "21.600": "veintiún mil seiscientos",
     "10.600": "diez mil seiscientos", "5.800": "cinco mil ochocientos",
-    "27.800": "veintisiete mil ochocientos", "20.000": "veinte mil", "13": "trece", "14": "catorce",
+    "27.800": "veintisiete mil ochocientos", "4.150": "cuatro mil ciento cincuenta",
+    "26.300": "veintiséis mil trescientos", "20.400": "veinte mil cuatrocientos", "20.000": "veinte mil", "13": "trece", "14": "catorce",
 }
 
 

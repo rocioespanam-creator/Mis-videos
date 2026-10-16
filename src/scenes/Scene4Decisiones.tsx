@@ -86,7 +86,7 @@ export const Scene4Decisiones: React.FC<{ from: number }> = ({ from }) => {
   const tSubir = at(3, "subir el menú");
   const a2 = at(3, "Unos 10.600");
   const t3 = at(3, "Tres:");
-  const a3 = at(3, "Unos 5.800");
+  const a3 = at(3, "Unos 4.150");
 
   const active = T < t2 - 0.3 ? 1 : T < t3 - 0.3 ? 2 : 3;
 
@@ -102,7 +102,7 @@ export const Scene4Decisiones: React.FC<{ from: number }> = ({ from }) => {
         title="Ordenar las tardes"
         note="Pagar solo las horas con clientes"
         amount={21600}
-        pAmount={prog(T, a1, 1.2)}
+        pAmount={prog(T, a1 - 0.2, 0.7)}
       >
         <OrderedClock p={prog(T, t1 + 0.6, 2.4)} size={220} />
       </Decision>
@@ -114,7 +114,7 @@ export const Scene4Decisiones: React.FC<{ from: number }> = ({ from }) => {
         title="Menú del día a 14 €"
         note="Aún por debajo de la media de Madrid"
         amount={10600}
-        pAmount={prog(T, a2, 1.2)}
+        pAmount={prog(T, a2 - 0.2, 0.7)}
       >
         <div style={{ width: 250, height: 222 }}>
           <MenuBoard oldPrice="13,00 €" newPrice="14,00 €" strike={prog(T, tSubir + 0.5, 0.6)} showNew={prog(T, tSubir + 1.1, 0.5)} />
@@ -127,8 +127,8 @@ export const Scene4Decisiones: React.FC<{ from: number }> = ({ from }) => {
         active={active === 3}
         title="Cortar gastos y no-shows"
         note="Reservas, tarjeta, equipos y recordatorios"
-        amount={5800}
-        pAmount={prog(T, a3, 1.2)}
+        amount={4150}
+        pAmount={prog(T, a3 - 0.2, 0.7)}
       >
         <ScissorsPhone T={T} p={prog(T, t3 + 0.6, 3)} height={210} />
       </Decision>

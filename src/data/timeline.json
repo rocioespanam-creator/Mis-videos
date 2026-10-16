@@ -1,5 +1,5 @@
 {
- "duration": 153.81,
+ "duration": 160.0,
  "phrases": [
   {
    "scene": 0,
@@ -22,8 +22,8 @@
   {
    "scene": 0,
    "text": "Estamos a dos pasos de la Puerta del Sol,",
-   "start": 1.967,
-   "end": 4.025
+   "start": 1.969,
+   "end": 4.017
   },
   {
    "scene": 0,
@@ -35,7 +35,7 @@
    "scene": 0,
    "text": "donde entra más gente que nunca:",
    "start": 5.077,
-   "end": 6.879
+   "end": 6.866
   },
   {
    "scene": 0,
@@ -52,8 +52,8 @@
   {
    "scene": 0,
    "text": "Y aun así,",
-   "start": 14.274,
-   "end": 14.834
+   "start": 14.276,
+   "end": 14.833
   },
   {
    "scene": 0,
@@ -64,13 +64,13 @@
   {
    "scene": 0,
    "text": "Vengo a contarte por qué y qué podemos hacer en 2025.",
-   "start": 16.679,
+   "start": 16.684,
    "end": 20.072
   },
   {
    "scene": 1,
    "text": "Lo primero:",
-   "start": 20.927,
+   "start": 20.928,
    "end": 21.434
   },
   {
@@ -113,13 +113,13 @@
    "scene": 1,
    "text": "Y en 2024 abristeis las tardes:",
    "start": 39.631,
-   "end": 41.833
+   "end": 41.832
   },
   {
    "scene": 1,
    "text": "venden unos 68.600 euros al año,",
    "start": 42.172,
-   "end": 45.049
+   "end": 45.047
   },
   {
    "scene": 1,
@@ -155,7 +155,7 @@
    "scene": 2,
    "text": "¿Y el mercado?",
    "start": 59.142,
-   "end": 59.72
+   "end": 59.718
   },
   {
    "scene": 2,
@@ -167,7 +167,7 @@
    "scene": 2,
    "text": "así que bajarlo tenía sentido.",
    "start": 64.739,
-   "end": 66.258
+   "end": 66.257
   },
   {
    "scene": 2,
@@ -178,7 +178,7 @@
   {
    "scene": 2,
    "text": "hoy cobráis 13 euros,",
-   "start": 68.15,
+   "start": 68.151,
    "end": 69.609
   },
   {
@@ -203,13 +203,13 @@
    "scene": 2,
    "text": "Mientras tanto,",
    "start": 79.406,
-   "end": 80.346
+   "end": 80.345
   },
   {
    "scene": 2,
    "text": "el sector subía precios y crecía.",
-   "start": 80.346,
-   "end": 82.195
+   "start": 80.345,
+   "end": 82.19
   },
   {
    "scene": 2,
@@ -232,13 +232,13 @@
   {
    "scene": 3,
    "text": "Te propongo tres decisiones,",
-   "start": 87.04,
-   "end": 88.7
+   "start": 87.07,
+   "end": 88.715
   },
   {
    "scene": 3,
    "text": "y ninguna necesita inversión.",
-   "start": 88.7,
+   "start": 88.715,
    "end": 90.425
   },
   {
@@ -250,8 +250,8 @@
   {
    "scene": 3,
    "text": "ordenar las tardes.",
-   "start": 91.837,
-   "end": 92.825
+   "start": 91.838,
+   "end": 92.824
   },
   {
    "scene": 3,
@@ -262,7 +262,7 @@
   {
    "scene": 3,
    "text": "pagamos solo las horas con clientes y llevamos ese equipo a donde hoy pagáis horas extra.",
-   "start": 94.365,
+   "start": 94.372,
    "end": 99.223
   },
   {
@@ -281,7 +281,7 @@
    "scene": 3,
    "text": "subir el menú del día a 14 euros.",
    "start": 103.463,
-   "end": 105.577
+   "end": 105.575
   },
   {
    "scene": 3,
@@ -317,103 +317,115 @@
    "scene": 3,
    "text": "cortar lo que no aporta:",
    "start": 114.685,
-   "end": 115.855
+   "end": 115.842
   },
   {
    "scene": 3,
    "text": "un servicio de reservas que no se usa,",
    "start": 116.262,
-   "end": 118.274
+   "end": 118.273
   },
   {
    "scene": 3,
    "text": "una comisión de tarjeta más cara de lo necesario,",
-   "start": 118.274,
-   "end": 120.924
+   "start": 118.273,
+   "end": 120.922
   },
   {
    "scene": 3,
    "text": "equipos encendidos sin uso,",
-   "start": 120.924,
-   "end": 122.489
+   "start": 120.922,
+   "end": 122.487
   },
   {
    "scene": 3,
    "text": "y recordatorios para que no queden mesas vacías.",
-   "start": 122.489,
-   "end": 125.139
+   "start": 122.487,
+   "end": 125.136
   },
   {
    "scene": 3,
-   "text": "Unos 5.800 euros.",
-   "start": 125.554,
-   "end": 127.284
+   "text": "Unos 4.150 euros.",
+   "start": 125.552,
+   "end": 127.249
   },
   {
    "scene": 4,
    "text": "Con las tres,",
-   "start": 127.94,
-   "end": 128.756
+   "start": 127.913,
+   "end": 128.643
   },
   {
    "scene": 4,
-   "text": "La Plazuela pasa de perder 4.800 euros a ganar unos 27.800 en 2025.",
-   "start": 128.756,
-   "end": 134.824
+   "text": "La Plazuela pasa de perder 4.800 euros a ganar unos 26.300 en 2025.",
+   "start": 128.643,
+   "end": 134.008
   },
   {
    "scene": 4,
    "text": "Eso sí,",
-   "start": 135.213,
-   "end": 135.823
+   "start": 134.403,
+   "end": 135.007
   },
   {
    "scene": 4,
    "text": "un aviso:",
-   "start": 136.099,
-   "end": 136.571
+   "start": 135.289,
+   "end": 135.761
   },
   {
    "scene": 4,
    "text": "la caja va justa.",
-   "start": 136.897,
-   "end": 138.079
+   "start": 136.088,
+   "end": 137.269
   },
   {
    "scene": 4,
    "text": "Hay que aplazar a marzo la inversión de 20.000 euros y decidir ese día cómo pagarla.",
-   "start": 138.345,
-   "end": 142.99
+   "start": 137.539,
+   "end": 142.168
+  },
+  {
+   "scene": 4,
+   "text": "Al pagar en marzo la caja queda en unos 20.400 euros:",
+   "start": 142.671,
+   "end": 146.366
+  },
+  {
+   "scene": 4,
+   "text": "ese día pedimos pago a plazos o una línea de crédito.",
+   "start": 146.366,
+   "end": 149.068
   },
   {
    "scene": 5,
    "text": "Cada acción tiene su indicador para seguir o parar a tiempo.",
-   "start": 143.472,
-   "end": 146.465
+   "start": 149.612,
+   "end": 152.605
   },
   {
    "scene": 5,
    "text": "Elena,",
-   "start": 147.088,
-   "end": 147.441
+   "start": 153.228,
+   "end": 153.581
   },
   {
    "scene": 5,
    "text": "La Plazuela funciona:",
-   "start": 147.783,
-   "end": 148.934
+   "start": 153.923,
+   "end": 155.074
   },
   {
    "scene": 5,
    "text": "solo hay que cobrar lo que vale y organizar mejor las horas.",
-   "start": 149.374,
-   "end": 152.199
+   "start": 155.514,
+   "end": 158.339
   },
   {
    "scene": 5,
    "text": "¿Empezamos en enero?",
-   "start": 152.452,
-   "end": 153.41
+   "start": 158.592,
+   "end": 160.0
   }
  ],
  "scenes": [
@@ -424,7 +436,7 @@
   },
   {
    "index": 1,
-   "speechStart": 20.927,
+   "speechStart": 20.928,
    "speechEnd": 58.435
   },
   {
@@ -434,18 +446,18 @@
   },
   {
    "index": 3,
-   "speechStart": 87.04,
-   "speechEnd": 127.284
+   "speechStart": 87.07,
+   "speechEnd": 127.249
   },
   {
    "index": 4,
-   "speechStart": 127.94,
-   "speechEnd": 142.99
+   "speechStart": 127.913,
+   "speechEnd": 149.068
   },
   {
    "index": 5,
-   "speechStart": 143.472,
-   "speechEnd": 153.41
+   "speechStart": 149.612,
+   "speechEnd": 160.0
   }
  ]
 }

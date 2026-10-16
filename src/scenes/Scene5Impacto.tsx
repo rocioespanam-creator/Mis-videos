@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
-import { Big, Card, Header, Label, useT } from "../components/ui";
+import { Big, Card, Header, Label, Pill, useT } from "../components/ui";
 import { C, fmtInt, lerp, pop, prog } from "../theme";
 import { at, atWord } from "../timing";
 import { Calendar, Warning } from "../illustrations/objects";
@@ -13,8 +13,12 @@ export const Scene5Impacto: React.FC<{ from: number }> = ({ from }) => {
   const tAviso = at(4, "Eso sí");
   const tAplazar = at(4, "Hay que aplazar");
   const tMarzo = atWord(4, "Hay que aplazar", "marzo");
+  const tPagar = at(4, "Al pagar en marzo");
+  const tPedimos = at(4, "ese día pedimos");
+  const pcaja = prog(T, tPagar, 0.6);
+  const pplan = pop(T, tPedimos);
 
-  const v = lerp(-4822, 27800, prog(T, tGanar - 0.6, 1.8));
+  const v = lerp(-4822, 26300, prog(T, tGanar - 0.6, 1.8));
   const color = v < 0 ? C.rojo : C.verde;
   const big = pop(T, t0 - 0.3);
   // desplazamiento de la tarjeta grande a la izquierda cuando llega el aviso
@@ -42,21 +46,47 @@ export const Scene5Impacto: React.FC<{ from: number }> = ({ from }) => {
       </Card>
       {cal > 0.001 && (
         <Card x={1000} y={186} w={840} h={594} appear={cal}>
-          <div style={{ padding: "26px 40px", display: "flex", flexDirection: "column", height: "100%", boxSizing: "border-box" }}>
+          <div style={{ padding: "24px 36px", display: "flex", flexDirection: "column", height: "100%", boxSizing: "border-box" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
-              <Warning size={64} />
-              <Label size={38} weight={700}>
+              <Warning size={58} />
+              <Label size={36} weight={700}>
                 Aviso: la caja va justa
               </Label>
             </div>
-            <div style={{ display: "flex", justifyContent: "center", marginTop: 14 }}>
-              <Calendar mark={prog(T, tMarzo - 0.2, 0.6)} width={400} />
+            <div style={{ display: "flex", alignItems: "center", gap: 24, marginTop: 12 }}>
+              <Calendar mark={prog(T, tMarzo - 0.2, 0.6)} width={300} />
+              <div style={{ opacity: prog(T, tAplazar, 0.5) }}>
+                <Label size={30}>Aplazar a marzo la inversión de</Label>
+                <Big size={72} style={{ marginTop: 6, whiteSpace: "nowrap" }}>
+                  20.000 €
+                </Big>
+              </div>
             </div>
-            <div style={{ marginTop: "auto", opacity: prog(T, tAplazar, 0.5) }}>
-              <Label size={34}>Aplazar a marzo la inversión de</Label>
-              <Big size={84} color={C.texto} style={{ marginTop: 4 }}>
-                20.000 €
-              </Big>
+            <div
+              style={{
+                marginTop: "auto",
+                background: C.crema,
+                border: `3px solid ${C.texto}`,
+                borderRadius: 20,
+                padding: "16px 24px",
+                opacity: pcaja,
+                transform: `translateY(${(1 - pcaja) * 16}px)`,
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "baseline", gap: 16 }}>
+                <Label size={28}>Tras pagar, caja en unos</Label>
+                <Big size={64} color={C.rojo} style={{ whiteSpace: "nowrap" }}>
+                  20.400 €
+                </Big>
+              </div>
+              <Label size={24} style={{ marginTop: 4, opacity: 0.85 }}>
+                Escenario central · por debajo de la regla de 25.000 €
+              </Label>
+              <div style={{ marginTop: 10, opacity: pplan }}>
+                <Pill bg={C.mostaza} color={C.texto} size={26}>
+                  1 de marzo: pago a plazos o línea de crédito
+                </Pill>
+              </div>
             </div>
           </div>
         </Card>

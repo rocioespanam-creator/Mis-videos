@@ -113,7 +113,6 @@ export const Scene2Diagnostico: React.FC<{ from: number }> = ({ from }) => {
   const c2 = pop(T, tTardes) * cardsOut;
   const res = pop(T, tRes + 0.2);
   const caja = pop(T, tCaja - 0.6);
-  const cash = lerp(111000, 55000, prog(T, tCaja, 1.6));
 
   return (
     <AbsoluteFill>
@@ -213,7 +212,7 @@ export const Scene2Diagnostico: React.FC<{ from: number }> = ({ from }) => {
             <div style={{ marginTop: "auto", display: "flex", alignItems: "baseline", gap: 16 }}>
               <Label size={34}>de 111.000 a</Label>
               <Big size={92} color={C.rojo}>
-                {fmtInt(cash)} €
+                55.000 €
               </Big>
             </div>
           </div>
