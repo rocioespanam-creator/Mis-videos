@@ -1,9 +1,10 @@
-"""Monta public/narracion.mp3: narración original + la frase nueva del aviso de marzo (ElevenLabs).
+"""Monta public/narracion.mp3: narración original + el audio nuevo del aviso de marzo (ElevenLabs).
 
-  audios/*.mp3  "Al pagar en marzo la caja queda en unos 20.400 euros: ese día pedimos pago a plazos
-                 o una línea de crédito."  -> se inserta tras "...decidir ese día cómo pagarla."
+  audios/*.mp3  "Hay que aplazar a marzo la inversión de 20.000 euros. Y como la caja quedará en unos
+                 20.000 euros, hay que pedir ya pago a plazos o una línea de crédito pequeña."
+                -> sustituye a "Hay que aplazar a marzo la inversión de 20.000 euros y decidir ese día cómo pagarla."
 
-El corte cae dentro de la pausa medida tras esa frase en la narración original. La frase nueva se
+Los cortes caen dentro de las pausas medidas antes y después de esa frase en la narración original. La frase nueva se
 recorta (silencio inicial/final) y se iguala en volumen a la original.
 Uso: python3 scripts/splice.py            (con el audio real)
      python3 scripts/splice.py --preview  (ruido de duración estimada, solo para probar la maqueta)
@@ -15,8 +16,9 @@ import sys
 
 ORIG = glob.glob("Narraci*.mp3")[0]
 OUT = "public/narracion.mp3"
-CUT = 143.23  # dentro de la pausa 142,99–143,47 s de la narración original
-PREVIEW_DUR = 6.4
+CUT_IN = 138.21  # pausa 138,08–138,35 s (antes de "Hay que aplazar")
+CUT_OUT = 143.23  # pausa 142,99–143,47 s (tras "...cómo pagarla.")
+PREVIEW_DUR = 9.2
 
 
 def mean_db(path, extra=""):
@@ -39,15 +41,15 @@ def main():
         if len(clips) != 1:
             sys.exit(f"Se esperaba exactamente un mp3 en audios/, hay {len(clips)}: {clips}")
         clip = clips[0]
-        gain = mean_db(ORIG, f"atrim=end={CUT},") - mean_db(clip, trim + ",")
+        gain = mean_db(ORIG, f"atrim=end={CUT_IN},") - mean_db(clip, trim + ",")
         inputs += ["-i", clip]
         chains.append(f"[1:a]aformat=sample_rates=44100:channel_layouts=mono,{trim},volume={gain:.2f}dB[C]")
         print(f"{clip}: ganancia {gain:+.2f} dB")
     chains.append("[0:a]aformat=sample_rates=44100:channel_layouts=mono,asplit=2[o1][o2]")
-    chains.append(f"[o1]atrim=end={CUT},asetpts=N/SR/TB[p1]")
-    chains.append(f"[o2]atrim=start={CUT},asetpts=N/SR/TB[p2]")
-    chains.append("anullsrc=r=44100:cl=mono,atrim=end=0.25[s1]")
-    chains.append("anullsrc=r=44100:cl=mono,atrim=end=0.3[s2]")
+    chains.append(f"[o1]atrim=end={CUT_IN},asetpts=N/SR/TB[p1]")
+    chains.append(f"[o2]atrim=start={CUT_OUT},asetpts=N/SR/TB[p2]")
+    chains.append("anullsrc=r=44100:cl=mono,atrim=end=0.13[s1]")
+    chains.append("anullsrc=r=44100:cl=mono,atrim=end=0.24[s2]")
     chains.append("[p1][s1][C][s2][p2]concat=n=5:v=0:a=1[out]")
     subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", *inputs, "-filter_complex", ";".join(chains),
                     "-map", "[out]", "-ac", "1", "-ar", "44100", "-b:a", "128k", OUT], check=True)

@@ -14,10 +14,10 @@ const DEFAULT = [
   ["escena2_caja", 58.0],
   ["escena3_lineas", 66.5],
   ["escena3_mapa", 85.5],
-  ["escena4_decisiones", 126.6],
+  ["escena4_decisiones", 127.0],
   ["escena5_ebitda_2025", 134.5],
-  ["escena5_aviso_caja", 142.5],
-  ["escena6_cierre", 153.0],
+  ["escena5_aviso_caja", 146.5],
+  ["escena6_cierre", 158.0],
 ];
 
 const args = process.argv.slice(2);

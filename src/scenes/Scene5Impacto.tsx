@@ -13,8 +13,8 @@ export const Scene5Impacto: React.FC<{ from: number }> = ({ from }) => {
   const tAviso = at(4, "Eso sí");
   const tAplazar = at(4, "Hay que aplazar");
   const tMarzo = atWord(4, "Hay que aplazar", "marzo");
-  const tPagar = at(4, "Al pagar en marzo");
-  const tPedimos = at(4, "ese día pedimos");
+  const tPagar = at(4, "Y como la caja");
+  const tPedimos = at(4, "hay que pedir ya");
   const pcaja = prog(T, tPagar, 0.6);
   const pplan = pop(T, tPedimos);
 
