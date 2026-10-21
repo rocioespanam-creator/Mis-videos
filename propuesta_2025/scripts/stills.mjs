@@ -6,7 +6,7 @@ import { bundle } from "@remotion/bundler";
 import { renderStill, selectComposition } from "@remotion/renderer";
 
 const BROWSER = "/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell";
-const DURS = [6, 14, 16, 16, 14, 14, 16, 16, 14, 20, 20, 8];
+const DURS = [6, 12, 10, 8, 9, 9, 9, 12, 8];
 const args = process.argv.slice(2);
 let list;
 if (args.length) list = args.map((s) => [`t_${s.replace(".", "_")}s`, Number(s)]);
