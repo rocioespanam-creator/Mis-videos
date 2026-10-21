@@ -1,0 +1,109 @@
+{
+  "nota": "Tiempos en segundos del VÍDEO (la voz entra a los 0,5 s). Puedes editar 'inicio' y 'fin' y volver a renderizar.",
+  "audio": {
+    "archivo": "audio/voz.mp3",
+    "duracion": 151.641,
+    "voz_entra_en_video": 0.5,
+    "fin_voz_audio": 151.392
+  },
+  "duracion_video": 153.641,
+  "metodo": "a) transcripción con marcas de tiempo por palabra (sherpa-onnx + NVIDIA Parakeet TDT 0.6B v3)",
+  "escenas": [
+    {
+      "escena": 1,
+      "nombre": "Portada",
+      "voz_empieza_audio": 0.0,
+      "inicio": 0.0,
+      "fin": 4.89,
+      "duracion": 4.89
+    },
+    {
+      "escena": 2,
+      "nombre": "La recomendación",
+      "voz_empieza_audio": 4.64,
+      "inicio": 4.89,
+      "fin": 18.53,
+      "duracion": 13.64
+    },
+    {
+      "escena": 3,
+      "nombre": "Diagnóstico",
+      "voz_empieza_audio": 18.282,
+      "inicio": 18.53,
+      "fin": 29.43,
+      "duracion": 10.9
+    },
+    {
+      "escena": 4,
+      "nombre": "La franja de tarde",
+      "voz_empieza_audio": 29.181,
+      "inicio": 29.43,
+      "fin": 42.27,
+      "duracion": 12.84
+    },
+    {
+      "escena": 5,
+      "nombre": "Referencia de precios",
+      "voz_empieza_audio": 42.021,
+      "inicio": 42.27,
+      "fin": 53.95,
+      "duracion": 11.68
+    },
+    {
+      "escena": 6,
+      "nombre": "Acción 1: precio de M01",
+      "voz_empieza_audio": 53.701,
+      "inicio": 53.95,
+      "fin": 67.85,
+      "duracion": 13.9
+    },
+    {
+      "escena": 7,
+      "nombre": "Acción 2: tardes",
+      "voz_empieza_audio": 67.603,
+      "inicio": 67.85,
+      "fin": 83.7,
+      "duracion": 15.85
+    },
+    {
+      "escena": 8,
+      "nombre": "Acción 3: administración",
+      "voz_empieza_audio": 83.455,
+      "inicio": 83.7,
+      "fin": 98.71,
+      "duracion": 15.01
+    },
+    {
+      "escena": 9,
+      "nombre": "Escenarios",
+      "voz_empieza_audio": 98.461,
+      "inicio": 98.71,
+      "fin": 111.45,
+      "duracion": 12.74
+    },
+    {
+      "escena": 10,
+      "nombre": "Caja",
+      "voz_empieza_audio": 111.196,
+      "inicio": 111.45,
+      "fin": 126.35,
+      "duracion": 14.9
+    },
+    {
+      "escena": 11,
+      "nombre": "Seguimiento",
+      "voz_empieza_audio": 126.098,
+      "inicio": 126.35,
+      "fin": 145.31,
+      "duracion": 18.96
+    },
+    {
+      "escena": 12,
+      "nombre": "Cierre",
+      "voz_empieza_audio": 145.059,
+      "inicio": 145.31,
+      "fin": 153.641,
+      "duracion": 8.33
+    }
+  ]
+}
