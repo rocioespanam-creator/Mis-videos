@@ -1,0 +1,120 @@
+FUENTE ÚNICA DE DATOS (copiada literalmente del prompt del encargo). scripts/check.ts comprueba que
+cada número que sale en pantalla aparece aquí.
+
+Duración total: entre 170 y 190 segundos. 1920x1080, 30 fps. Márgenes de seguridad: 80 px.
+Títulos de 72 a 90 px, texto principal de 48 a 56 px, texto secundario y avisos nunca por debajo de 36 px, cifras destacadas de 120 px o más.
+Cada frase debe quedar completa en pantalla al menos 1 segundo por cada 3 palabras. Unos 2 segundos quietos al final. Máximo 12 palabras por frase. Transición: fundido de medio segundo.
+Ejemplo de formato: 39.513 € o 14,50 €.
+
+ESCENA 1. Portada (6 s)
+Etiqueta: LA PLAZUELA | PROPUESTA DE DECISIÓN.
+Título grande: Decisión de gestión para 2025.
+Subtítulo: Priorizar contribución y liquidez con tres medidas sujetas a evidencia.
+Pie: Para Elena · Simulación preparada en enero de 2025.
+Visual: título que aparece letra a letra sobre fondo limpio, con el nombre del restaurante arriba.
+
+ESCENA 2. La recomendación (14 s)
+Título: La decisión prioriza contribución y caja.
+Texto: Probar tres medidas por etapas.
+Tres tarjetas que entran una a una de izquierda a derecha:
+1. Precio M01: probar 14,50 € desde marzo.
+2. Franja de tarde: retirar 16:00–20:00 solo con ahorro real de nómina.
+3. Administración: reducir gastos y renegociar contratos.
+Después aparecen tres cifras grandes con efecto contador: EBITDA central simulado 39.513 €, resultado antes de impuestos 16.216 €, caja final central simulada 59.354 €.
+Línea inferior: Mejora conjunta del EBITDA: +44.335 €. Ventas centrales 1.126.688 € frente a 1.164.724 € observadas.
+Aviso fijo en pequeño: Simulación, no garantía. El ahorro de tardes exige pagos de personal realmente evitados y documentados.
+
+ESCENA 3. Diagnóstico (16 s)
+Etiqueta: DIAGNÓSTICO | DATOS OBSERVADOS 2022–2024.
+Título: Las ventas crecieron mientras el EBITDA cayó.
+Dos gráficos de columnas, uno al lado del otro, que se dibujan de izquierda a derecha.
+Gráfico de ventas netas: 2022 = 1.019.658 €, 2023 = 1.069.985 €, 2024 = 1.164.724 €.
+Gráfico de EBITDA: 2022 = 102.040 €, 2023 = 54.604 €, 2024 = −4.822 €. La columna de 2024 va en rojo y por debajo de cero.
+Textos destacados: Ventas 2024: +8,9% frente a 2023. EBITDA: 102.040 € en 2022 y −4.822 € en 2024.
+Frase final: En 2024, ingredientes + personal fueron el 80,4% de las ventas. Administración: 72.200 €.
+
+ESCENA 4. La franja de tarde (16 s)
+Etiqueta: OPERACIÓN | DATOS OBSERVADOS 2024.
+Título: La franja de tarde no cubrió ni el coste del equipo.
+Gráfico de dos columnas: Ventas = 68.576 € y Coste del equipo = 75.360 €.
+Cifra grande en rojo entre ambas: −6.784 €, con la nota "Ventas menos coste del equipo, antes de ingredientes y otros costes".
+Tres datos que aparecen debajo con efecto contador: 17.422 visitas (3,94 € netos por visita); 2.099,67 h sin demanda, de 4.285 h regulares; 49,0% de las horas regulares de tarde.
+Frase final: Cerrar solo si se evita un pago real de personal. Reasignar horas no cuenta como ahorro.
+
+ESCENA 5. Referencia de precios (14 s)
+Etiqueta: REFERENCIA DE PRECIOS | ORIENTATIVA.
+Título: El precio de M01 puede probarse a 14,50 €.
+Gráfico de columnas del precio del menú del día: La Plazuela hoy 13,00 €; dNorte 13,90 €; Ginger 14,50 €; En Busca 17,00 €; Media Madrid 14,80 €. Resalta La Plazuela en el color principal.
+Dato destacado: 15,13 € de media de la muestra de 3 restaurantes. Propuesta para M01: 14,50 €.
+Aviso en pantalla: Referencia orientativa. Los menús, sus inclusiones y gramajes no son equivalentes. La muestra no es representativa.
+Frase final: La prueba se limita a M01. Mantiene composición, cantidad y servicio.
+
+ESCENA 6. Acción 1: precio de M01 (14 s)
+Etiqueta: DECISIONES.
+Título: Acción 1 | probar el nuevo precio solo en M01.
+Animación: el número 13,00 € se transforma en 14,50 € con una flecha. Texto: Desde marzo, misma composición, cantidad y servicio.
+Cifra grande en verde: Impacto EBITDA central simulado 12.376 €.
+Bloque "Prueba y control": Preparar receta y TPV en enero–febrero. Revisar semanas comparables a las 4 y 8 semanas. Medir contribución M01, unidades y compras adicionales.
+Bloque de alerta en rojo: Alerta si las unidades caen más de 10%. Ajustar si la contribución queda bajo la base durante 2 semanas comparables.
+
+ESCENA 7. Acción 2: tardes (16 s)
+Etiqueta: DECISIONES.
+Título: Acción 2 | tardes con ahorro de nómina verificable.
+Texto: Plan propuesto: cerrar venta 16:00–20:00 desde abril, preservando tareas necesarias para cenas.
+Cifra grande en verde: Impacto EBITDA central simulado 15.891 €.
+Comparativa de dos barras: Ahorro efectivo central supuesto 5.652 €/mes frente a coste mensual del equipo de tarde en 2024 de 6.280 €/mes.
+Supuesto: evitar el 90% del coste del equipo nuevo entre abril y diciembre; retener el 10% de ventas.
+Tres iconos de verificación que se marcan uno a uno, bajo el título "Condición para activar": acuerdo escrito, pagos de personal realmente evitados, cobertura de cenas intacta. Debajo: Las horas reasignadas no cuentan como ahorro.
+Nota pequeña: Coste de transición central 3.000 € en abril. Si el coste real lo supera, recalcular.
+
+ESCENA 8. Acción 3: administración (16 s)
+Etiqueta: DECISIONES.
+Título: Acción 3 | reducir administración y ordenar pagos.
+Texto: Reducción central del 25% en administración desde marzo. Base 2024: 72.200 €.
+Cifra grande en verde: Impacto EBITDA central simulado 15.961 €.
+Tres tarjetas:
+1. Reservas B: cancelar desde febrero, 45 €/mes, 0 reservas en 2024.
+2. Tarjeta: oferta escrita, de 0,32% + 30 €/mes a 0,28% + 15 €/mes desde febrero.
+3. Equipamiento, pago de 20.000 €: de enero a marzo, con una flecha en un calendario.
+Aviso: Es un cambio de calendario. El pago sigue incluido en la caja anual.
+Pie: Implantación: 400 € en enero · 16 h internas iniciales.
+
+ESCENA 9. Escenarios (14 s)
+Etiqueta: ESCENARIOS 2025 | SIMULACIÓN.
+Título: El impacto por acción depende del escenario.
+Gráfico de columnas agrupadas con la mejora neta estimada de EBITDA por medida, en tres colores (prudente, central, optimista), con leyenda:
+Precio M01: 4.679 / 12.376 / 17.874 €.
+Tardes: 4.686 / 15.891 / 26.596 €.
+Administración: 6.801 / 15.961 / 20.846 €.
+Nota: Interacción de comisiones incluida una vez: 156 € prudente, 107 € central, 67 € optimista.
+Aviso: El optimista es una posibilidad, no el resultado esperado ni una garantía.
+
+ESCENA 10. Caja (20 s)
+Etiqueta: CAJA | SIMULACIÓN 2025.
+Título: La caja final incluye el pago aplazado del equipamiento.
+Parte izquierda, gráfico de caja final por escenario: prudente 31.342 €, central 59.354 €, optimista 80.403 €.
+Parte derecha, puente de caja del caso central, animado como una cascada paso a paso:
+Caja inicial 55.007 €
+− 7.988 € flujo operativo base
++ 44.335 € mejora central simulada
+− 20.000 € equipamiento en marzo
+− 12.000 € amortización de principal
+= 59.354 € caja final central (resaltado en verde)
+Alerta en rojo: Sin plan, el mínimo proyectado a 8 semanas es 16.544 €, por debajo del umbral interno de 25.000 €.
+Frase final: El aplazamiento cambia el calendario. Los 20.000 € siguen pagándose. Beneficio y caja son magnitudes distintas.
+
+ESCENA 11. Seguimiento (20 s)
+Etiqueta: SEGUIMIENTO.
+Título: La ejecución avanza con controles y condiciones.
+Cinco filas que entran una a una, cada una con un icono:
+M01: contribución semanal; conservar al menos 95% de unidades comparables. Ajustar tras 2 semanas bajo la base.
+Tardes: desde abril, verificar pagos evitados de 5.652 €/mes. Sin evidencia: ahorro cero.
+Administración: medir el recorte central del 25% desde marzo y comprobar que no reaparezcan gastos en otras partidas.
+Caja: actualizar semanalmente la previsión móvil de 8 semanas. Si cae bajo 25.000 €, reprogramar compromisos no esenciales.
+Resultado: si el EBITDA móvil de 3 meses sigue negativo, reevaluar todas las medidas. Revisar mensualmente de junio a diciembre.
+Abajo, una línea de tiempo horizontal: Enero–febrero: negociar y preparar → Marzo: iniciar prueba M01 → Abril–mayo: activar tardes solo con ahorro documentado.
+
+ESCENA 12. Cierre (8 s)
+Texto: Tres medidas, probadas por etapas y con condiciones claras, para recuperar rentabilidad y proteger la caja.
+Debajo, tres iconos con las medidas: Precio M01 · Franja de tarde · Administración.
+Pie: La Plazuela · Simulación de enero de 2025, no una previsión aprobada.
