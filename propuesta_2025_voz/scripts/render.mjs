@@ -1,6 +1,6 @@
 // node scripts/render.mjs preview  -> out/preview/la_plazuela_propuesta_2025_preview.mp4 (960x540, 10 fps)
 // node scripts/render.mjs final    -> out/la_plazuela_propuesta_2025.mp4 (1920x1080, 30 fps, H.264 yuv420p, AAC 192k 48 kHz estéreo)
-// Opción --sin-musica: solo voz. Opción --reusar-imagen: no vuelve a dibujar la imagen (solo rehace el audio).
+// Por defecto solo voz; --con-musica añade música 20 dB por debajo de la voz. Opción --reusar-imagen: no vuelve a dibujar la imagen (solo rehace el audio).
 // Lee escenas_tiempos.json (vía src/timing.ts): si lo editas y vuelves a ejecutar, el vídeo se ajusta.
 import path from "node:path";
 import fs from "node:fs";
@@ -10,7 +10,7 @@ import { renderMedia, selectComposition } from "@remotion/renderer";
 
 const BROWSER = "/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell";
 const mode = process.argv[2] === "final" ? "final" : "preview";
-const musica = !process.argv.includes("--sin-musica");
+const musica = process.argv.includes("--con-musica"); // por defecto, solo voz
 const reusar = process.argv.includes("--reusar-imagen") && fs.existsSync(`out/tmp/imagen_${mode}.mp4`);
 const T = JSON.parse(fs.readFileSync("escenas_tiempos.json", "utf8"));
 const total = T.duracion_video;
